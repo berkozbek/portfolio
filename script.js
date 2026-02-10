@@ -27,7 +27,7 @@ class Particle {
   }
 
   draw() {
-    ctx.fillStyle = "rgba(56, 189, 248, 0.8)";
+    ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
     ctx.fill();
@@ -51,7 +51,7 @@ class Particle {
 }
 
 const particles = [];
-for (let i = 0; i < 80; i++) {
+for (let i = 0; i < 120; i++) {
   particles.push(new Particle());
 }
 
