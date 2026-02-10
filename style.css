@@ -6,10 +6,10 @@
 }
 
 body {
-  background: #0f172a;
+  background: #0a001b;
   color: #e5e7eb;
   line-height: 1.6;
-  padding: 2rem;
+  padding: 0;
 }
 
 header {
@@ -20,10 +20,11 @@ header {
 section {
   max-width: 800px;
   margin: 2rem auto;
+  padding: 4rem 2rem;
 }
 
 h1, h2 {
-  color: #38bdf8;
+  color: #fbf6ff;
 }
 
 .project {
@@ -34,7 +35,7 @@ h1, h2 {
 }
 
 a {
-  color: #38bdf8;
+  color: #fbf6ff;
   text-decoration: none;
 }
 #bg-canvas {
@@ -44,4 +45,23 @@ a {
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.hero-content p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  opacity: 0.8;
 }
