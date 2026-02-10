@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+h1, h2 {
+  color: #38bdf8;
+}
+
+.project {
+  background: #020617;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
